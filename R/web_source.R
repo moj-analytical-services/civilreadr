@@ -1,3 +1,7 @@
+#' Starts from root directory to find most recent civils pages
+#' @name web_source
+#' @title Find most recent weblink to download zip files from
+#'
 web_source <- function(){
 #Set up temporary file
   temp <- tempfile()
