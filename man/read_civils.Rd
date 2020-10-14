@@ -4,10 +4,12 @@
 \alias{read_civils}
 \title{Read in CSV of interest as a data.table}
 \usage{
-read_civils(csv_name)
+read_civils(csv_name, data_type)
 }
 \arguments{
-\item{csv_name}{csv name as a string, choose from "court", "la", "map", and "monthly"}
+\item{csv_name}{csv name as a string, choose from "court", "la", "map", and "monthly" for mortgage and landlord possession, and "workload", "jr", "timeliness" and "progression" for civil}
+
+\item{data_type}{whether CSV comes from mortgage and landlord "mortgage" or civil statistics "civil".}
 }
 \description{
 Allows reading in of the most recent published Civil Justice data CSVs in an automated way

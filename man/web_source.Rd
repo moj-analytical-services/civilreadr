@@ -4,7 +4,10 @@
 \alias{web_source}
 \title{Find most recent weblink to download zip files from}
 \usage{
-web_source()
+web_source(origin)
+}
+\arguments{
+\item{origin}{whether CSV comes from mortgage and landlord "mlp" or civil statistics "civil".}
 }
 \description{
 Starts from root directory to find most recent civils pages

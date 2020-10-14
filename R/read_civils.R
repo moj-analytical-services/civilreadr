@@ -1,5 +1,5 @@
 #' Allows reading in of the most recent published Civil Justice data CSVs in an automated way
-#' @param csv_name csv name as a string, choose from "court", "la", "map", and "monthly"
+#' @param csv_name csv name as a string, choose from "court", "la", "map", and "monthly" for mortgage and landlord possession, and "workload", "jr", "timeliness" and "progression" for civil
 #' @param data_type whether CSV comes from mortgage and landlord "mortgage" or civil statistics "civil".
 #' @export
 #' @name read_civils
