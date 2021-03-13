@@ -37,7 +37,7 @@ web_source <- function(origin){
   page <- unique(page[grepl(month_choose, page, ignore.case = T)]) #Find the ones with the highest year
 
   #Join page to root name of gov.uk and download this page to temp
-  latest_page <- paste0("www.gov.uk", page)
+  latest_page <- paste0("https://www.gov.uk", page)
   download.file(latest_page, destfile = temp, quiet=TRUE)
 
   #Read and find the zip file
